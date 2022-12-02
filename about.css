@@ -1,0 +1,33 @@
+.about-us--subhead {
+  margin-top: 30px;
+}
+.btn-info {
+  background-color: #07b2c5;
+}
+.about-us--para {
+  line-height: 30px;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+.container {
+  margin-top: 70px;
+}
+.card {
+  padding: 35px 15px 35px 15px;
+}
+#box {
+  border-top: 3px solid #07b2c5;
+}
+#cont {
+  margin-top: 180px;
+  background-image: url(./image/BG.png);
+  color: aliceblue;
+  padding: 45px 15px;
+}
+#row-3 {
+  margin-top: 50px;
+}
+#vertical-line {
+  border-right: 0.5px solid rgb(255, 255, 255);
+  height: 90px;
+}
