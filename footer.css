@@ -1,0 +1,47 @@
+#container-footer {
+  background-color: #06b2c5;
+  width: 100%;
+  height: 600px;
+  padding: 80px;
+}
+@media screen and (max-width: 600px) {
+  #container-footer {
+    height: 1500px;
+    width: 115%;
+  }
+}
+.logo-para {
+  margin-top: 10px;
+}
+#icon {
+  text-decoration: none;
+  padding: 5px;
+}
+#icons {
+  margin-top: 2rem;
+  margin-right: 2rem;
+}
+li {
+  list-style: none;
+  line-height: 38px;
+}
+#our-company-head {
+  margin-bottom: 2rem;
+}
+#policies {
+  margin-bottom: 2rem;
+}
+#reach-us {
+  margin-bottom: 2rem;
+}
+#tnc {
+  margin-right: 8rem;
+  float: right;
+}
+#copyright {
+  color: rgba(95, 87, 32, 0.756);
+  margin-left: 8rem;
+}
+.last-line {
+  margin-top: 5rem;
+}
