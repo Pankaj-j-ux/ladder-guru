@@ -3133,4 +3133,50 @@ transition: 2s ease-in-out;
 
 
 
+.testimonial{
+  text-align: center;
+}
 
+.title1 {
+  color: #18191F;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.description{
+  font-weight: 300;
+  color: #18191F;
+  
+}
+
+
+.maining{ 
+background-color: white;
+    border-radius: 12px;
+    padding: 30px 30px;
+}
+
+
+.test1{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
+.test2{
+  font-size: 12px;
+  font-weight: 400;
+}
+
+
+.nametest{
+  font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.nametest1{
+  color: #474A57;
+  font-size: 12px;
+    font-weight: 400;
+}
