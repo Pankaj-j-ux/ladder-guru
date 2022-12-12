@@ -70,3 +70,61 @@ li {
     width: 100%;
   }
 }
+
+#row {
+  background-image: url("./BGMask.svg");
+  background-repeat: no-repeat;
+  max-width: 100%;
+  margin: auto;
+  border-radius: 5px;
+  padding: 2rem;
+}
+#row-1 {
+  background-image: url("./Bg-1.svg");
+  background-repeat: no-repeat;
+  height: 12rem;
+  width: 15rem;
+  margin-left: 5rem;
+}
+#row-2 {
+  color: aliceblue;
+  font-size: large;
+  font-weight: bold;
+  display: inline-block;
+}
+input {
+  padding: 1rem;
+}
+#basic-addon2 {
+  background-color: #233862;
+  color: white;
+  border-color: #233862;
+}
+@media screen and (max-width: 600px) {
+  #row-1 {
+    background-image: url("./Bg-1.svg");
+    background-repeat: no-repeat;
+    height: 9rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  #newsletter-1 {
+    margin-left: 0rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  input {
+    padding: 0rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  #row {
+    background-image: url("./BGMask.svg");
+
+    height: 22rem;
+    width: 388px;
+    border-radius: 5px;
+    padding: 2rem;
+    background-size: cover;
+  }
+}
