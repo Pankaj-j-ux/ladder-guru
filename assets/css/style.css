@@ -203,7 +203,7 @@ section {
     font-weight: 500;
     color: #ffffff;
     white-space: nowrap;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     transition: 0.3s;
     text-decoration: none;
 }
@@ -2981,13 +2981,16 @@ transition: 2s ease-in-out;
   animation: hideshow 3s ease-in-out infinite;
 } */
 
-.mainbutton{
+.mainbutton {
   background: #2C4B79;
-    border-radius: 20px;
-    padding: 20px 20px;
-    width: -webkit-fill-available;
-    color: white;
-    border: 0px solid;
+  border-radius: 20px;
+  padding: 20px 20px;
+  width: -webkit-fill-available;
+  color: white;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  border: 0px solid;
 }
 
 .mainform{
@@ -3002,7 +3005,10 @@ transition: 2s ease-in-out;
   padding: 20px;
   font-size: 1rem;
   margin-bottom: 0px;
-  font-weight: 400;
+  font-weight: 300;
+  font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 26px;
   line-height: 1.5;
   color: #212529;
   background-clip: padding-box;
@@ -3044,7 +3050,7 @@ transition: 2s ease-in-out;
 
 .stepsmain1{
   margin-top: 20px;
-  font-weight: 600;
+  font-weight: 400;
   color: #767D86;
   font-size: 12px;;
 }
@@ -3166,6 +3172,9 @@ background-color: white;
 .test2{
   font-size: 12px;
   font-weight: 400;
+  font-family: 'Poppins';
+  line-height: 20px;
+  margin-top: 12px;
 }
 
 
@@ -3173,24 +3182,25 @@ background-color: white;
   font-size: 16px;
     font-weight: 500;
     margin-top: 10px;
+    font-family: 'Poppins';
 }
 
 .nametest1{
   color: #474A57;
+  font-family: 'Poppins';
   font-size: 12px;
     font-weight: 400;
 }
 
 
-.countshead{
-  font-size: 34px;
-    font-family: 'Raleway';
-    font-weight: 600; 
+.countshead {
+  font-size: 30px;
+  font-family: 'Raleway';
+  font-weight: 700;
 }
 
-
-.countshead2{
-  font-family: 'Raleway';
+.countshead2 {
+  font-family: 'Poppins';
   font-weight: 400;
   font-size: 15px;
   line-height: 26px;
@@ -3234,21 +3244,20 @@ background-color: white;
 }
 
 
-.headingprice2{
-  font-family: 'Raleway';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 27px;
-color: #767D86;
+.headingprice2 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 27px;
+  color: #767D86;
 }
 
-
 .headingprice3 {
-  font-family: 'Raleway';
+  font-family: 'Poppins';
   font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
+  font-weight: 300;
+  font-size: 12px;
   line-height: 30px;
   margin-left: 19px;
   color: #767D86;
