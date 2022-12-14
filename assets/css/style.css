@@ -3264,7 +3264,7 @@ background-color: white;
 }
 
 .mainblock {
-  max-width: 40%;
+  max-width: 100%;
   margin: auto;
   background: #FFFFFF;
   box-shadow: 4px 4px 144px rgb(0 0 0 / 12%);

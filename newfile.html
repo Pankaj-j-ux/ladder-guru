@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="assets/css/style.css" rel="stylesheet">
+    <style>
+
+ul {
+  display         : flex;
+  justify-content : center;
+  margin          : 50px auto;
+  font            : 1.5rem Arial;
+  color           : #335;
+  list-style      : none;
+  padding         : 0;
+}
+
+li:not(:first-child) {
+  margin-left: 1.5em;
+}
+
+input {
+  position : absolute;
+  clip     : rect(0 0 0 0);
+  width    : 1px;
+  height   : 1px;
+}
+
+label {
+  display: inline-block;
+  padding: .3em .75em;
+  background: #9bc;
+  color: #556; 
+  cursor: pointer;
+  transition: all .5s 0s;
+  border-radius: 5px;
+}
+
+:checked +  label {
+  background: #556;
+  color: #fff;
+  cursor: default;
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #556;
+}
+
+    </style>
+</head>
+<body>
+    <form>
+        <div>
+            <ul>
+                <li>
+                  <input type="radio" name="choice" value="0" id="choice--yes"/>
+                  <label for="choice--yes">
+                   
+<div class="row mainblock">
+  <div class="col-md-12">
+    <div class="row">
+      <div class="col-md-2">
+        <img class="img-fluid" width="40px" src="assets/img/ab.svg">
+      </div>
+      <div class="col-md-10">
+        <h4 class="additional">Additional Information </h4>
+        <p class="addshort">How you would like to receive communication updates</p>
+      </div>
+    </div>
+<br>
+<div class="row" >
+  <div class="wapp">
+    <img style="width: 50px;" class="img-fluid" src="assets/img/wapp.svg">
+    <span class="nameapp">Whatsapp</span>
+  </div>
+
+  <div class="wapp">
+    <img style="width: 50px;" class="img-fluid" src="assets/img/mail.svg">
+    <span class="nameapp">G-mail</span>
+  </div>
+</div>
+ 
+
+
+<br><br>
+  </div>
+
+</div>
+                  </label>
+                 
+                </li>
+                <li>
+                  <input type="radio" name="choice" value="1" id="choice--no"/>
+                  <label for="choice--no">No</label>
+                </li>
+                <li>
+                  <input type="radio" name="choice" value="2" id="choice--sometimes"/>
+                  <label for="choice--sometimes">Sometimes</label>
+                </li>
+           </ul>
+        </div>
+    </form>
+</body>
+</html>
